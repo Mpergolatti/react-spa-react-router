@@ -16,9 +16,9 @@ class Main extends Component {
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
           <div className="content">
-            <Route exact path='/' component={Home}/>
+            {/* <Route exact path='/' component={Home}/>
             <Route path='/Stuff' component={Stuff}/>
-            <Route path='/Contact' component={Contact}/>
+            <Route path='/Contact' component={Contact}/> */}
           </div>
         </div>
       </HashRouter>
